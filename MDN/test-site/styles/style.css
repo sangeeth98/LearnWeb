@@ -1,7 +1,15 @@
-img {
-    opacity:0.1;
-}
 body {
     background-image: url(/MDN/test-site/images/arthus-pilorget-illu-island-v03b.jpg);
-    background-blend-mode: lighten;
+    background-blend-mode:lighten;
+
+}
+p{
+    color: gold;
+    padding-left: 20px;
+}
+h1{
+    color: lightgreen;
+    width: 500px;
+    border: 3px solid black;
+    padding-left: 5px;
 }
