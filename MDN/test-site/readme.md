@@ -17,7 +17,5 @@ This is the list of topics covered in learning to create website from MDN websit
     * content
     * element
         > normal element
-
         > nesting element
-        
         > empty element
