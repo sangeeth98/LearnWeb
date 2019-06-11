@@ -26,6 +26,14 @@ This is the list of topics covered in learning to create website from MDN websit
     * Declaration
     * Property
     * Property Value
+7. Javascript  
+   | **Variable** | **Explanation**                                                                                                                  | **Example**                                                                                                               |
+   | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+   | *String*   | A sequence of text known as a string. To signify that the value is a string, you must enclose it in quote marks.             | ```var myVariable = 'Bob';```                                                                                                |
+   | *Number*   | A number. Numbers don't have quotes around them.                                                                             | ```var myVariable = 10;```                                                                                                   |
+   | *Boolean*  | A True/False value. The words ```true``` and ```false``` are special keywords in JS, and don't need quotes.                              | ```var myVariable = true;```                                                                                                 |
+   | *Array*    | A structure that allows you to store multiple values in one single reference.                                                | ```var myVariable = [1,'Bob','Steve',10];```Refer to each member of the array like this: ```myVariable[0]```, ```myVariable[1]```, etc. |
+   | *Object*   | Basically, anything. Everything in JavaScript is an object, and can be stored in a variable. Keep this in mind as you learn. | ```var myVariable = document.querySelector('h1');``` All of the above examples too.                                          |
 
 ---
 ---
@@ -103,19 +111,19 @@ click this image to view playlist on **web demystified** by mozilla hacks youtub
 
 Tables can be copy pasted from another application.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| *Still*  | `renders` | **nicely** |
+| 1        | 2         | 3          |
 
 ## HTML
 
