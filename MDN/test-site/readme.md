@@ -103,6 +103,7 @@ This is a valid [Empty fragment](#fragment)
 ### For embedding video links with image
 
 [![mozilla hacks](/MDN/test-site/images/mozilla-hacks.jpg)](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
+
 click this image to view playlist on **web demystified** by mozilla hacks youtube channel.
 
 ---

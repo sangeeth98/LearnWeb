@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project - 2</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="scripts/script.js"></script>
+
+</head>
+<body>
+    <h1>change CSS class</h1>
+
+    <div id="id1">Hello</div>
+    <div id="id2">Goodbye</div>
+    <p>
+        <input type="button" value="Change-Color" onclick="changecolor()">
+        <input type="button" value="Change-Text" onclick="changetext()">
+    </p>
+    
+    <!--Using Canvas Elements instead of div-->
+    <h1>Towards a Canvas</h1>
+    <canvas id="d1">Hello</canvas>
+    <p>
+        <input type="button" value="Change lime" onclick="dolime()">
+        <input type="button" value="Change yellow" onclick="doyellow()">
+    </p>
+
+    <h1>This is another canvas element</h1>
+    <canvas id="d2">Hi</canvas>
+    
+    <!--Excercise - 1-->
+    <ul>
+        <li class="item1">Item - 1</li>
+        <li class="item2">Item - 2</li>
+        <li class="item3">Item - 3</li>
+        <li class="item4">Item - 4</li>
+    </ul>
+
+    <!--Excercise - 2-->
+    <header class="header">
+        <img src="images/logo.png" alt="logo" class="header_logo">
+        <h1 class="heading">Title</h1>
+    </header>
+
+    <!--Excercise - 3-->
+    <section>
+        <h2 class="heading-2"></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolores sint ut. Similique explicabo, id enim maxime, delectus impedit nobis, aut nihil fugiat vitae officiis perferendis illum amet obcaecati?</p>
+    </section>
+    <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam porro sit error nostrum at eum optio incidunt dolorem, et laudantium voluptates qui fugit esse eos vero illo, aspernatur culpa! Perspiciatis.</aside>
+
+    <!--Excercise - 4-->
+    <main>
+        <div class="feature">
+            <h1 class="feature_title">feature - 1</h1>
+        </div>
+        <div class="feature">
+            <h1 class="feature_title">feature - 2</h1>
+        </div>
+        <div class="feature">
+            <h1 class="feature_title">feature - 3</h1>
+        </div>
+        <div class="feature">
+            <h1 class="feature_title">feature - 4</h1>
+        </div>
+    </main>
+
+    <!--
+        Solutions
+
+        ul>li.item.item--${Item $}*3
+        header.header>img[src=logo.png alt=logo].header__logo+h1.heading{Title}
+        section>h2.heading-2+p>lorem^^aside>lorem or (section>h2.heading-2+p>lorem)+aside>lorem
+        html:5>header+main>(.feature>h1.feature__title{Feature $})*3
+    -->
+
+</body>
+</html>

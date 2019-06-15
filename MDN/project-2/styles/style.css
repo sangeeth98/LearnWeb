@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+.yellowback{
+    background-color: yellow;
+}
+.blueback{
+    background-color: lightblue;
+}
+.div{
+    width:200px;
+    font-size: 28px;
+}
+canvas{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border: 1px solid #c3c3c3;
+}
