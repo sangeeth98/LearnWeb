@@ -193,8 +193,6 @@ D-->D2(while loop);
 D-->D3(doWhile loop);
 D-->D4(for...in loop);
 end
-
-
 ```
 
 ## Sources
