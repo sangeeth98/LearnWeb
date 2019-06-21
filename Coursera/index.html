@@ -26,12 +26,24 @@
     <canvas id="d1">Hello</canvas>
     <p>
         <input type="button" value="Change lime" onclick="dolime()">
-        <input type="button" value="Change yellow" onclick="doyellow()">
+        <input type="button" vxalue="Change yellow" onclick="doyellow()">
     </p>
 
     <h1>This is another canvas element</h1>
     <canvas id="d2">Hi</canvas>
     
+
+    <!--==================================================================-->
+    <!--Color Picker-->
+    <h1>Color Picker</h1>
+    <canvas id="c1"></canvas>
+    <p>
+        <input type="button" value="Change lime" onclick="makelime()">
+        <input type="color" value="#001A57" onchange="docolor()" id="clr">
+    </p>
+    <input type="range" min="10" max="100" value="10" id="sldr" oninput="dosquare()"><span></span>
+    
+
     <!--Excercise - 1-->
     <ul>
         <li class="item1">Item - 1</li>

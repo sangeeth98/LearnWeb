@@ -30,3 +30,25 @@ function doyellow(){
     ctx.font = "30px Arial";
     ctx.fillText("Hello World!",10,80);
 }
+
+/*Code for color picker*/
+function makelime(){
+    var dd1 = document.getElementById("c1");
+    dd1.style.backgroundColor = "lime";
+}
+function docolor(){
+    var dd2 = document.getElementById("c1");
+    var colorinput = document.getElementById("clr");
+    var color = colorinput.value;
+    dd2.style.backgroundColor = color;
+}
+/*Code for slider*/
+function dosquare(){
+    var dd1 = document.getElementById("c1");
+    var sizeinput = document.getElementById("sldr");
+    var size = sizeinput.value;
+    var ctx = dd1.getContext("2d");
+    ctx.clearRect(0,0,dd1.width,dd1.height);
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(10,10,size,size);
+}
