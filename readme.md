@@ -1,4 +1,4 @@
-# TeluskoJS
+# Learning Javascript
 
 This is my repository where I practice js codes
 
@@ -64,7 +64,7 @@ Arithmetic operators perform arithmetic operations on numbers.
 
 Comparision and Logical operators are used to test for true or false.
 
-Comparison operators are used in logical statements to determine equality or difference between variables or values. 
+Comparison operators are used in logical statements to determine equality or difference between variables or values.
 
 Given that x = 5, the table below explains the comparison operators:
 
@@ -177,7 +177,7 @@ graph TB;
 subgraph  
 A(JavaScript Control Statement);
 end
-subgraph   
+subgraph
 A-->B(Conditional Control Statement);
 B-->B1(If-Else Statements);
 B-->B2(Switch Case);

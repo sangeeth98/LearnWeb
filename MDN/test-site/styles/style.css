@@ -6,7 +6,7 @@ body {
     background-blend-mode:lighten;
 
 }
-p{
+p,label{
     color: gold;
     padding-left: 20px;
 }
