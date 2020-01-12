@@ -72,17 +72,12 @@ You need another line of text to break blockquote
 
 ### Horizontal rules
 
-Hypens
-
 ---
-
-Asterisks
-
-***
-
+Hypens,
+Asterisks and
 Even underscores work
 
-___
+---
 
 But they are inconsistent and only --- should be used to trigger horizontal rules
 
@@ -157,6 +152,6 @@ Raw html will work pretty well
    This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use
-    * asterisks (*)
-    * minus (-)
-    * plus (+) symbols
+  * asterisks (*)
+  * minus (-)
+  * plus (+) symbols
